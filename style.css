@@ -355,6 +355,16 @@ body{
         width: 80%;
         height: 80%;
     }
+    .gallery__picture:hover{
+        min-width: 260px;
+        flex: 260px; 
+    }
+    .hero__title{
+        font-size: 2rem;
+    }
+    .hero__subtitle{
+        font-size: 1rem;
+    }
 
 }
 
