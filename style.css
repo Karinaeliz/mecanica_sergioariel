@@ -231,9 +231,9 @@ body{
 }
 
 .container__footer{
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
     align-items: center;
     margin-top: 20px;
     
@@ -250,10 +250,7 @@ body{
     text-align: center;
 }
 
-.footer__icons{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 .footer__container-icons{
     display: inline-block;
@@ -315,8 +312,7 @@ body{
     .container__services .container-texts {
         width: 75%;
         margin-top: 30px;
-        
-        
+         
     }
     .gallery__title{
         font-size: 2rem;
